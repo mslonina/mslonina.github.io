@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href={{ "/assets/css/bootstrap.min.css" | relative_url }} crossorigin="anonymous">
+    <link rel="stylesheet" href={{ "/assets/css/app.css" | relative_url }} crossorigin="anonymous">
+
+    {% seo %}
+  </head>
+  <body>
+    <div class="branding">
+      mariusz slonina
+    </div>
+    <div class="container">
+      <div class="row main py-5">
+          <div class="description offset-1 col-11 col-sm-10 col-md-10 col-lg-8 col-xl-6 px-5">
+              {{ content }}
+            </div>
+            <div class="sidebar offset-1 col-11 col-sm-10 col-md-10 col-lg-8 col-xl-4 px-5">
+                {% include sidebar.html %}
+            </div>
+      </div>
+    </div>
+  </body>
+</html>

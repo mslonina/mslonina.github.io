@@ -1,0 +1,36 @@
+title: Mariusz Slonina
+description: A personal site 
+url: http://mariusz-slonina.pl
+author: Mariusz Slonina
+twitter: 
+  username: mslonina
+  card: summary
+
+collections_dir: content
+collections:
+  images:
+    output: true
+    layout: picture
+  now_reading:
+    output: true
+    layout: reading
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "images"
+    values:
+      layout: "picture"
+  - scope:
+      path: ""
+      type: "now_reading"
+    values:
+      layout: "reading"
+
+plugins:
+  - jekyll-seo-tag
