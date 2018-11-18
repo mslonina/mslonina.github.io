@@ -1,7 +1,12 @@
 {% assign book = site.now_reading | sort: 'end' | reverse | first %}
 
 {% if book %}
-<strong>Now reading:</strong>
-<br />
-<em>{{ book.title }}</em> by {{ book.by }}
+<div class="block">
+    <div class="title">
+        Now reading
+    </div>
+    <div class="content">
+        <em>{{ book.title }}</em> by {{ book.by }}
+    </div>
+</div>
 {% endif %}
