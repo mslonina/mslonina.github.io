@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mistrz czeka na światło
 date: 2019-01-05
 lead_image: ND_20180421_135944_4599_001.jpg
