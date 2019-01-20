@@ -1,5 +1,5 @@
 title: Mariusz Slonina
-description: A personal site 
+description: Far Letters 
 url: http://mariusz-slonina.pl
 author: Mariusz Slonina
 twitter: 
@@ -21,6 +21,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Mariusz Słonina"
+      permalink: :title:output_ext
   - scope:
       path: ""
       type: "images"
