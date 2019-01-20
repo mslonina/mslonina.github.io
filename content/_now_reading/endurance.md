@@ -2,7 +2,7 @@
 title: Endurance
 by: Scott Kelly
 start: 2018-10-08
-end: 2019-09-25
+end: 2019-01-20
 ---
 
 This is really a good book. Scott Kelly takes us for a one year trip across the world, within small spaceship, the International Space Station.
